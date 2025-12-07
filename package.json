@@ -1,0 +1,23 @@
+{
+    "name": "@inspirit365/d365-ecom-appsettings-typegen",
+    "version": "1.0.0",
+    "description": "Auto-generates typings for Dynamics 365 eCommerce app.settings.json file.",
+    "bin": {
+        "d365-ecom-appsettings-typegen": "dist/cli.js"
+    },
+    "main": "dist/cli.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "yarn build"
+    },
+    "dependencies": {
+        "chokidar": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.1",
+        "typescript": "^5.9.3"
+    }
+}

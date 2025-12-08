@@ -1,6 +1,6 @@
 {
     "name": "@inspirit365/d365-ecom-appsettings-typegen",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Auto-generates typings for Dynamics 365 eCommerce app.settings.json file.",
     "author": "Inspirit365",
     "license": "MIT",

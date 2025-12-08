@@ -46,7 +46,7 @@ function toTs(obj: any, name = 'IAppSettings'): string {
         'import type { IAny, IGeneric } from \'@msdyn365-commerce/core-internal\';',
         '',
         `export interface ${name}InContext extends IGeneric<IAny> {`,
-        `    config: ${name};`,
+        `    config?: ${name};`,
         '}',
         '',
         `export interface ${name} {`
